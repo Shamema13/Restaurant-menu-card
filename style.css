@@ -6,7 +6,7 @@
 
 
 }
-body{
+body h2{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -65,20 +65,89 @@ nav a:hover{
 }
 
 .maintext div{
-    margin-top: 75em;
+    margin-top: 2em;
 }
+
+
 
 .maintext button{
     width: 20vw;
     margin-top: 2em;
     border-radius: 10px;
     padding: 7em;
-    background-color:var(green) ;
+    background-color:var(green);
     color: var(white);
     border: 1px solid var(--green);
 }
 
+
+
 .menu{
+    
     display: grid;
-    background: linear-gradient(to right,rgb);
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52),rgb(60,60,60) );
+    color:black;
 }
+ 
+#menuheading,#locheading{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52),rgb(60,60,60));
+    font-size: 2.5em;
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+}
+
+.menu th{
+    color: var(--green);
+    font-size: 1.8em;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row: span 2;
+}
+
+.locations{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52),rgb(60,60,60));
+  color:var(--white) ;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.locations h2{
+    color: var(--green);
+    margin-bottom: .8em;
+}
+
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width :220px; 
+}
+
+footer{
+    background-color: rgb(55,50,50) rgb(100,100,100) rgb(60,60,60);
+    color: black;
+    padding: 25em 1em;
+}
+
+
