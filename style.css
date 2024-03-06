@@ -58,9 +58,9 @@ header h2 i,nav a i{
 .maintext{
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     justify-content: center;
-    padding: 2em;
+    padding: 3em;
 }
 
 .tagline1{
