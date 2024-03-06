@@ -83,8 +83,8 @@ header h2 i,nav a i{
     width: 20vw;
     margin-top: 2em;
     border-radius: 10px;
-    padding: 7em;
-    background-color:var(green);
+    padding: 10px;
+    background-color:var(--green);
     color: var(white);
     border: 1px solid var(--green);
 }
